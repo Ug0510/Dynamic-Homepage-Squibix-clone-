@@ -1,0 +1,158 @@
+{
+  "section1": {
+    "carouselData": {
+      "slide1": {
+        "heading": "Products | Solutions | Services",
+        "content": "Blockchain, Cloud, Testing, Web & Mobile Development, and more, delivering ingenious solutions for business challenges.",
+        "image": "https://squbix.com/static/media/OurProducts.280be9f036a51e2f908c.gif"
+      },
+      "slide2": {
+        "heading": "Blockchain Consultant",
+        "content": "At Squbix, we recognize the indomitable potential of Blockchain, with expertise in wallet development, CBDC, and core Blockchain development.",
+        "image": "https://squbix.com/static/media/Consultancy.ff859984439a013883e4.gif"
+      },
+      "slide3": {
+        "heading": "Training & Education",
+        "content": "Industry-standard training in BLOCKCHAIN and AI, hands-on experience in developing real-world products like wallets, coins, and exchange platforms with expert guidance.",
+        "image": "https://squbix.com/static/media/TrainingAndEdu.33feca9190168ab80dda.gif"
+      }
+    }
+  },
+  "section2": {
+    "heading": "Wrapper to Squbix Digital",
+    "content": "At Squbix Digital, we aim to work with the latest technology to solve the needs and requirements of our clients. Passionate about using cutting-edge technology to meet client needs, delivering high-quality solutions for business success."
+  },
+  "section3": {
+    "heading": "Our Services",
+    "content": "Your one-stop solution for business success in today's dynamic market. Our Services range from idea transformation to product enhancement:",
+    "cards": {
+      "card1": {
+        "title": "Product Development",
+        "description": "We excel in turning your ideas into exceptional products, ensuring precision, quality, and efficiency through expert collaboration and cutting-edge technology."
+      },
+      "card2": {
+        "title": "Product Enhancement",
+        "description": "Enhance your existing product with tailored solutions to optimize user experiences, boost performance, and seamlessly integrate new functionalities."
+      },
+      "card3": {
+        "title": "Custom Solutions",
+        "description": "We provide custom solutions tailored to your unique business needs, be it a mobile app, web application, or complex enterprise solution aligned with your goals."
+      },
+      "card4": {
+        "title": "Technology Consulting",
+        "description": "Informed decisions with industry expertise. We advise on tech selection, architecture, scalability, and security to empower your business."
+      },
+      "card5": {
+        "title": "Ongoing Support and Maintenance",
+        "description": "Committed to long-term client partnerships. Our support and maintenance services ensure smooth operation, continuous improvement, and proactive security."
+      }
+    },
+    "content2": "At Squbix Digital, we are dedicated to delivering exceptional services that empower businesses to thrive in the ever-evolving digital landscape. Reach out to us today to discuss your unique requirements and discover how our services can take your business to new heights."
+  },
+  "section4": {
+    "heading": "What We Offer",
+    "serviceCards": {
+      "card1": {
+        "title": "Mobile Development",
+        "description": "Mobile app experts for iOS and Android. Quality, efficiency, and exceptional user experiences with the latest technologies."
+      },
+      "card2": {
+        "title": "Web Development",
+        "description": "Delivering high-quality web solutions optimized for speed, security, and performance."
+      },
+      "card3": {
+        "title": "Blockchain Consulting",
+        "description": "Your partner for blockchain solutions. Enhance business operations with decentralized apps, smart contracts, and blockchain technology."
+      },
+      "card4": {
+        "title": "Cloud and AWS",
+        "description": "Cloud migration experts. Optimize cloud infrastructure, ensure security, and scalability with ongoing support."
+      }
+    }
+  },
+  "section5": {
+    "heading": "Our Core Values",
+    "infoCards": {
+      "card1": {
+        "title": "Quality",
+        "imageSrc": "https://squbix.com//static/media/Quality.524e53bd938440dd5afaae68ce9a4390.svg",
+        "description": "We pursue perfection through efficient methodologies and constant innovation led by our dedicated team."
+      },
+      "card2": {
+        "title": "Tech",
+        "imageSrc": "https://squbix.com//static/media/technology.727a59fa2a9d621679ae549f813b49ae.svg",
+        "description": "A technological utopia, ever-evolving to reach the zenith of new-age technology."
+      },
+      "card3": {
+        "title": "Research",
+        "imageSrc": "https://squbix.com//static/media/Research.fe17951b61e0a8469e31873d17942633.svg",
+        "description": "We aspire to understand and develop ideas that can be the genesis of new ideation."
+      }
+    }
+  },
+  "section6":{
+    "heading":"Our Tech Stack",
+    "tabs":{
+      "tab1":{
+        "title":"Frontend",
+        "card1":{
+          "imageSrc":"https://squbix.com/static/media/fe-1.3c31248bdcd628f1799a58fb0757147b.svg",
+          "title":"React"
+        },
+        "card2":{
+          "imageSrc":"https://squbix.com/static/media/fe-2.7848eea30d0c124175be6f8166258524.svg",
+          "title":"Angular"
+        },
+        "card3":{
+          "imageSrc":"https://squbix.com/static/media/fe-3.521c8662128ca8b70987838e636f2c20.svg",
+          "title":"React Native"
+        }
+      },
+      "tab2":{
+        "title":"Backend",
+        "card1":{
+          "imageSrc":"https://squbix.com/static/media/be-1.413a560511e2d27d673e4f80d1f6ca39.svg",
+          "title":"Nodejs"
+        },
+        "card2":{
+          "imageSrc":"https://squbix.com/static/media/be-2.3f3adfad63903a978bbabb6a554d46c8.svg",
+          "title":"Python"
+        },
+        "card3":{
+          "imageSrc":"https://squbix.com/static/media/be-3.b6a933cbc5972ede869ac921c2048f2b.svg",
+          "title":"Rust"
+        }
+      },
+      "tab3":{
+        "title":"Cloud",
+        "card1":{
+          "imageSrc":"https://squbix.com/static/media/cl-1.f8d5fa3b801ff83890235be2dcc86680.svg",
+          "title":"AWS"
+        },
+        "card2":{
+          "imageSrc":"https://squbix.com/static/media/cl-2.21fd0ec0a4eb545d08c44b4230924e9c.svg",
+          "title":"Azure"
+        },
+        "card3":{
+          "imageSrc":"https://squbix.com/static/media/cl-3.500d2a3f3d99167c333b8d6fb141f159.svg",
+          "title":"Firebase"
+        }
+      },
+      "tab4":{
+        "title":"Blockchain",
+        "card1":{
+          "imageSrc":"https://squbix.com//static/media/bc-1.a4eb11cc8f04788348f266c2388c2506.svg",
+          "title":"AWS"
+        },
+        "card2":{
+          "imageSrc":"https://squbix.com//static/media/bc-2.7274ccf3e7e4484aa155dafcca0dca85.svg",
+          "title":"Azure"
+        },
+        "card3":{
+          "imageSrc":"https://squbix.com//static/media/bc-3.c1660830028db69354e3de112245494a.svg",
+          "title":"Firebase"
+        }
+      }
+    }
+  }
+}
