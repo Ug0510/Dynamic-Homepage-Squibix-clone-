@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 
 
-const AdminLoginForm = () => {
+const AdminLoginForm = ({login}) => {
     const navigate = useNavigate(); 
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -19,10 +19,8 @@ const AdminLoginForm = () => {
 
         // Check if username and password match the expected values
         if (username === 'udit' && password === '1123') {
-            console.log('heres')
-            localStorage.setItem('isLoggedIn','true');
-            navigate(0);
-            setErrorMessage('8'); 
+            login();
+            navigate('/update-form');
         } else {
             // If credentials are incorrect, set error message
             setErrorMessage('Invalid username or password');

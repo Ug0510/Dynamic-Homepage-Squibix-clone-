@@ -29,13 +29,19 @@ function App() {
     
   }, [data,loggedIn]);
 
+
+  const login = () => {
+    localStorage.setItem('isLoggedIn', 'true');
+    setLoggedIn(true);
+  };
+
   
 
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Homepage data={data} />} />
-        <Route path="/login" element={loggedIn ? <Navigate to="/" /> : <AdminLoginForm setLoggedIn={setLoggedIn} />} />
+        <Route path="/login" element={loggedIn ? <Navigate to="/" /> : <AdminLoginForm login={login} />} />
         <Route path="/update-form" element={localStorage.getItem('isLoggedIn') === 'true' ? <UpdateForm data={data} setData={setData} /> : <Navigate to="/login" />} />
       </Routes>
     </Router>
